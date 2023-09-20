@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "SourceCodePro-Black";
+    src: url('./sourceCodePro/SourceCodePro-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceCodePro-Light";
+    src: url('./sourceCodePro/SourceCodePro-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceCodePro-Medium";
+    src: url('./sourceCodePro/SourceCodePro-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceCodePro-Regular";
+    src: url('./sourceCodePro/SourceCodePro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SourceCodePro-Semibold";
+    src: url('./sourceCodePro/SourceCodePro-Semibold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+  

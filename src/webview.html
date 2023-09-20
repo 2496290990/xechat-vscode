@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Webview</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <el-button @click="showMessage">Click Me</el-button>
+        <p>{{ message }}</p>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="${vueJsPath}"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            },
+            created() {
+
+            },
+            methods: {
+                showMessage() {
+                    this.message = 'Button Clicked!';
+                },
+                showInfo() {
+
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
